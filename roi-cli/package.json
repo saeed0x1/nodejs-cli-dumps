@@ -1,0 +1,42 @@
+{
+	"name": "roi-cli",
+	"description": "A cli to optimize images.",
+	"version": "0.0.1",
+	"license": "UNLICENSED",
+	"bin": {
+		"roi-cli": "index.js",
+		"roi": "index.js"
+	},
+	"author": {
+		"name": "Saeed",
+		"email": "bolt7w7@gmail.com",
+		"url": "https://www.twitter.com/zerodayrat"
+	},
+	"keywords": [
+		"roi-cli",
+		"Saeed"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"beep-cli": "^1.0.4",
+		"chalk": "^5.0.0",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^2.0.2",
+		"cli-welcome": "^2.2.2",
+		"globby": "^11.1.0",
+		"meow": "^9.0.0",
+		"ora": "^5.4.1",
+		"resize-optimize-images": "^1.1.2"
+	},
+	"devDependencies": {
+		"prettier": "^2.5.1"
+	}
+}

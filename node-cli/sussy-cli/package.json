@@ -1,0 +1,41 @@
+{
+	"name": "edgy-cli",
+	"description": "A cli to fetch jokes from edgy api",
+	"version": "1.0.1",
+	"license": "UNLICENSED",
+	"bin": {
+		"edgy-cli": "index.js",
+		"edgy": "index.js"
+	},
+	"author": {
+		"name": "Saeed",
+		"email": "bolt7w7@gmail.com",
+		"url": "https://www.twitter.com/zerodayrat"
+	},
+	"keywords": [
+		"edgy-cli",
+		"Saeed"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"axios": "^0.25.0",
+		"beep-cli": "^1.0.4",
+		"chalk": "^4.1.2",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^2.0.2",
+		"cli-welcome": "^2.2.2",
+		"meow": "^9.0.0",
+		"ora": "^5.4.1"
+	},
+	"devDependencies": {
+		"prettier": "^2.5.1"
+	}
+}
