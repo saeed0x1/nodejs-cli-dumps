@@ -5,7 +5,7 @@ This repository is the compilation of all clis i built during my learning proces
 CLIs -
 
 - name-cli : It'll give all information about me/creator. like, social media links, blogs etc.
-- sussy-cli : Command line version of edgy-api.
+- sussy-cli : Command line version of <a href="https://github.com/zerodayrat/Edgy-API">edgy-api</a>
 - quiz-node-cli : You can play quiz game in your terminal.
 - remember-cli : It'll Save your configurations. like, login info and all
 - roi-cli : a cli for image optimization.
